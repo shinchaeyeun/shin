@@ -1,0 +1,141 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR&family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR&family=Outfit:wght@100..900&display=swap");
+.hidden {
+  display: none;
+}
+
+input {
+  padding: 10px 15px;
+  border: none;
+  border-bottom: 2px solid #fff;
+  background-color: initial;
+  color: #fff;
+}
+input:focus {
+  outline: none;
+}
+input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.6509803922);
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.6509803922);
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Outfit", "Noto Sans KR";
+  font-size: 14px;
+  background-size: 1700px;
+  background-position-x: center;
+}
+
+#weather {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+#weather div {
+  text-align: center;
+}
+#weather div .city {
+  font-size: 12px;
+}
+#weather div .temp {
+  font-size: 50px;
+  margin: -10px 0;
+}
+
+#center {
+  padding: 150px 0 100px;
+  text-align: center;
+}
+#center #current-date {
+  margin: 0px;
+  font-size: 20px;
+}
+#center #clock {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+#login-form {
+  margin-top: 60px;
+}
+#login-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+}
+
+#greeting {
+  position: relative;
+}
+#greeting span {
+  font-size: 19px;
+}
+
+#todo-form input#form {
+  width: 200px;
+}
+
+#todo-list {
+  padding: 0px;
+}
+#todo-list li {
+  margin: 15px 0px;
+  list-style: none;
+  /* label:before에 체크하기 전 상태 CSS */
+  /* label:before에 체크 된 상태 CSS */
+}
+#todo-list li.active {
+  text-decoration: line-through;
+  color: #d8d8d8;
+}
+#todo-list li.active button {
+  color: #d8d8d8;
+}
+#todo-list li button {
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  color: white;
+}
+#todo-list li input {
+  display: none;
+}
+#todo-list li input + label {
+  margin-right: 10px;
+  cursor: pointer;
+}
+#todo-list li input + label:before {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  vertical-align: top;
+}
+#todo-list li input:checked + label:before {
+  content: "✔︎";
+  color: #fff;
+  font-size: 13px;
+  background-color: #d8d8d8;
+  border-color: #d8d8d8;
+}
+
+#quotes {
+  margin-bottom: 80px;
+  font-family: "Noto Serif KR";
+  font-style: italic;
+  text-align: center;
+}
+#quotes div:last-child {
+  margin-top: 5px;
+  font-size: 13px;
+}/*# sourceMappingURL=style.css.map */

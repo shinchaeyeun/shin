@@ -11,6 +11,12 @@
   font-weight: 700;
   src: url(../font/Mermaid1001.ttf) format("truetype");
 }
+@font-face {
+  font-family: paperlogy;
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
 .double-line {
   position: relative;
   width: 100%;

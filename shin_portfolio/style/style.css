@@ -11,6 +11,12 @@
   font-weight: 700;
   src: url(../font/Mermaid1001.ttf) format("truetype");
 }
+@font-face {
+  font-family: paperlogy;
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
 .frame {
   position: fixed;
   width: 100vw;
@@ -112,6 +118,7 @@ section#about-me .grid-container .grid-item.text-block .content .tit {
 section#about-me .grid-container .grid-item.text-block .content.header {
   margin-top: 0;
   font-size: 36px;
+  font-family: paperlogy;
 }
 section#about-me .grid-container .grid-item.text-block .content.profile ul, section#about-me .grid-container .grid-item.text-block .content.licens ul {
   display: flex;

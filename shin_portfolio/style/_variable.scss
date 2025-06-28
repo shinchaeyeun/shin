@@ -12,6 +12,13 @@
   src: url(../font/Mermaid1001.ttf) format("truetype")
 }
 
+@font-face {
+  font-family: paperlogy;
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
 // colors
 $basic: #707070;
 $point: #dd1818;
@@ -20,3 +27,4 @@ $point: #dd1818;
 $outfit: 'Outfit', sans-serif;
 $oriya: 'Oriya Mn';
 $mermaid: 'Mermaid';
+$paperlogy: 'paperlogy', sans-serif;

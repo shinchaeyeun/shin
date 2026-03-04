@@ -33,6 +33,9 @@ body {
 
   background-size: 1700px;
   background-position-x: center;
+
+  
+
 };
 
 #weather {
@@ -155,5 +158,11 @@ body {
       margin-top: 5px;
       font-size: 13px;
     }
+  }
+}
+
+@media (min-width: 1700px) {
+  body {
+    background-size: cover;
   }
 }

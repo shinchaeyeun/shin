@@ -89,8 +89,6 @@ body {
 #todo-list li {
   margin: 15px 0px;
   list-style: none;
-  /* label:before에 체크하기 전 상태 CSS */
-  /* label:before에 체크 된 상태 CSS */
 }
 #todo-list li.active {
   text-decoration: line-through;
@@ -112,6 +110,9 @@ body {
   margin-right: 10px;
   cursor: pointer;
 }
+#todo-list li {
+  /* label:before에 체크하기 전 상태 CSS */
+}
 #todo-list li input + label:before {
   content: "";
   display: inline-block;
@@ -120,6 +121,9 @@ body {
   border: 2px solid #fff;
   border-radius: 50%;
   vertical-align: top;
+}
+#todo-list li {
+  /* label:before에 체크 된 상태 CSS */
 }
 #todo-list li input:checked + label:before {
   content: "✔︎";
@@ -138,4 +142,10 @@ body {
 #quotes div:last-child {
   margin-top: 5px;
   font-size: 13px;
+}
+
+@media (min-width: 1700px) {
+  body {
+    background-size: cover;
+  }
 }/*# sourceMappingURL=style.css.map */

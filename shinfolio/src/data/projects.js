@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const projectsData = [
   {
     link: "https://shinchaeyeun.github.io/shin/eigenhain_SHIN/index.html",
-    thumnail: "/images/project/eigenhain_fullpage.png",
+    thumnail: "./images/project/eigenhain_fullpage.png",
     title: "Eigenhain",
     type: "클론사이트",
     languageUsed: "HTML, CSS, JavaScript",

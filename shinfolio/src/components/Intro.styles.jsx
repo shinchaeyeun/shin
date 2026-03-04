@@ -15,7 +15,7 @@ const Block = styled(S.GridItem)`
     $type === "img" &&
     `
       height: 420px;
-      background-image: url(/images/01.jpeg);
+      background-image: url(./images/01.jpeg);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;

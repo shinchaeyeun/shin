@@ -23,8 +23,7 @@
   height: 100vh;
   border: 20px solid #fff;
   z-index: 999;
-  -webkit-clip-path: polygon(0% 0%, 0px 100%, 22px 100%, 22px 22px, calc(100vw - 22px) 22px, calc(100vw - 22px) calc(100vh - 22px), 0% calc(100vh - 22px), 0% 100%, 100% 100%, 100% 0%);
-          clip-path: polygon(0% 0%, 0px 100%, 22px 100%, 22px 22px, calc(100vw - 22px) 22px, calc(100vw - 22px) calc(100vh - 22px), 0% calc(100vh - 22px), 0% 100%, 100% 100%, 100% 0%);
+  clip-path: polygon(0% 0%, 0px 100%, 22px 100%, 22px 22px, calc(100vw - 22px) 22px, calc(100vw - 22px) calc(100vh - 22px), 0% calc(100vh - 22px), 0% 100%, 100% 100%, 100% 0%);
 }
 
 .frame-inner {

@@ -28,7 +28,7 @@ $(function(){
       e.preventDefault();
 
       $('html, body').stop().animate({
-        scrollTop: $('section').eq(0).offset().top - 30
+        scrollTop: - 30
       });
     });
     
